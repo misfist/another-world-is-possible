@@ -1,0 +1,28 @@
+/**
+ * Primary Styles
+ **/
+
+// Modules and Variables
+@import "partials/reset";
+
+// Third-party
+@import "vendor/bootstrap";
+
+// Helpers
+@import "helpers/variables";
+@import "helpers/mixins";
+
+// Partials
+@import "partials/base";
+@import "partials/typography";
+
+// Components
+@import "components/buttons";
+@import "components/forms";
+
+// Modules
+@import "modules/header";
+@import "modules/footer";
+
+// Pages
+@import "pages/home";

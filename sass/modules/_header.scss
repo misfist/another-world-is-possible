@@ -1,0 +1,78 @@
+/**
+ * Header
+ **/
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../images/another-world-is-possible.png') no-repeat top center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1,
+.headline h2 {
+    @include rgba-background($white, 0.9);
+}
+
+.headline h1 {
+    font-size: 130px;
+}
+
+.headline h2 {
+    font-size: 77px;
+}
+
+@media(max-width: $xlarge-screen) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+}
+
+@media(max-width: $large-screen) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+}
+
+@media(max-width: $small-screen) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+}
+
+@media(max-width: $xsmall-screen) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+

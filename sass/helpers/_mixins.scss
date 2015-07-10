@@ -1,0 +1,9 @@
+/**
+ * Backgrounds - https://www.newmediadenver.com/blog/hexadecimal-rgba-conversion-sass
+ **/
+
+@mixin rgba-background($hexcolor, $opacity) {
+  background-color: $hexcolor;
+  background-color: rgba($hexcolor, $opacity); 
+}
+
