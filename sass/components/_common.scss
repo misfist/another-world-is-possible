@@ -1,0 +1,14 @@
+a {
+	color: $gray-medium;
+
+	&:hover,
+	&:focus {
+		color: $primary;
+	}
+}
+
+em {
+	font-style: normal;
+	color: $primary;
+	font-weight: bold;
+}
