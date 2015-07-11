@@ -1,127 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+<html>
+	<head>
+		<title>Another World is Possible</title>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Coding challenge project for General Assembly Code for Change program">
+	    <meta name="author" content="Patricia Lutz">
 
-<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	</head>
+	<body>
 
-    <title>Another World is Possible</title>
+	    <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <div class="container">
 
-    <link href="css/style.css" rel="stylesheet">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a class="navbar-brand" href="#">Another World is Possible</a>
+	            </div>
 
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav">
+	                    <li>
+	                        <a href="#about">About</a>
+	                    </li>
+	                    <li>
+	                        <a href="#contact">Contact</a>
+	                    </li>
+	                </ul>
+	            </div>
 
-    <!-- Custom CSS -->
-    <!-- <link href="css/one-page-wonder.css" rel="stylesheet"> -->
+	        </div>
+	    </nav>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<header id="main-header" role="banner">
+			<div class="container">
 
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Another World is Possible</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
                 <h1>Patricia Lutz</h1>
-                <h2>Another world is possible.</h2>
+                <h2>Another world <em>is</em> possible.</h2>
+
             </div>
-        </div>
-    </header>
+		</header>
 
-    <!-- Page Content -->
-    <div class="container">
+		<section id="main-body" class="container" role="main">
 
-        <hr class="featurette-divider">
 
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">I Want to Learn to
-                <span class="text-muted">Code for Good.</span>
-            </h2>
-            <p class="lead">I want to learn to code so that I can contribute to building open tools that help groups working for positive change to organize and communicate. 
-        </div>
+			<article id="about" role="article">
 
-        <hr class="featurette-divider">
+				<img class="img-circle img-responsive" src="http://placehold.it/500x500">
 
-        <!-- Second Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Feel Free to
-                <span class="text-muted">Contact Me.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<h2>I Want to Learn to
+                <em>Code for Good.</em></h2>
 
-            <p>
-                <a href="https://github.com/misfist" target="_blank"><i class="fa fa-github-square  fa-4x"></i></a>
-                <a href="https://www.linkedin.com/in/patricialutz" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i>
-</a>
-                <a href="#" target="_blank"><i class="fa fa-envelope-o fa-4x"></i></a>
+				<p>I want to learn to code so that I can contribute to building open tools that help groups working for positive change to organize and communicate. </p>
 
-            </p>
-        </div>
+			</article>
 
-        <hr class="featurette-divider">
+			<article id="contact" role="article">
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyleft <i class="fa fa-copyright fa-rotate-180"></i> 2015 <a href="https://github.com/misfist/another-world-is-possible" target="_blank"><i class="fa fa-github fa-2x"></i></a></p>
-                </div>
-            </div>
-        </footer>
+				<img class="img-circle img-responsive" src="http://placehold.it/500x500">
 
-    </div>
-    <!-- /.container -->
+				<h2>Feel Free to
+                <em>Contact Me.</em></h2>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+				<p></p>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+				<ul class="list-inline">
+					<li class="col-lg-2"><a href="https://github.com/misfist" target="_blank"><i class="fa fa-github-square  fa-3x"></i></a></li>
+					<li class="col-lg-2"><a href="https://www.linkedin.com/in/patricialutz" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+					<li class="col-lg-2"><a href="#" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></li>
+				</ul>
 
-</body>
+			</article>
 
+			<footer id="main-footer" class="footer" role="contentinfo">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="col-lg-6">Copyleft <i class="fa fa-copyright fa-rotate-180"></i> 2015 </p>
+						<p class="col-lg-6"><a href="https://github.com/misfist/another-world-is-possible" target="_blank"><i class="fa fa-github fa-2x"></i></a></p>
+					</div>
+				</div>
+			</footer>
+
+		</section>
+
+	    <!-- jQuery -->
+	    <script src="js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="js/bootstrap.min.js"></script>
+		
+	</body>
 </html>
