@@ -2,23 +2,35 @@
  * Colors
  **/
 
- $white: #fff;
- $black: #333;
+$white: #fff;
+$black: #333;
 
- // Grays
- $gray-light: #eee;
- $gray-medium: #ccc;
- $gray-dark: #777;
+// Grays
+$gray-light: #eee;
+$gray-medium: #ccc;
+$gray-dark: #777;
+
+$brand-primary:         #7B2A0F !default; // Red
+$brand-success:         #28356A !default; // Blue
+$brand-info:            #5bc0de !default; 
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+$primary: #7B2A0F;
+$secondary: #28356A;
+$tertiary: #4F928B;
+$highlight: #939EBA; // green #4D905D
+$shading: #ccc;
 
 
 /**
  * Media Queries
  **/
 
- $xlarge-screen: 1200px;
- $large-screen: 991px;
- $medium-screen: 768px;
- $small-screen: 668px;
- $xsmall-screen: 640px;
- $tiny-screen: 375px;
+$xlarge-screen: 1200px;
+$large-screen: 991px;
+$medium-screen: 768px;
+$small-screen: 668px;
+$xsmall-screen: 640px;
+$tiny-screen: 375px;
 
