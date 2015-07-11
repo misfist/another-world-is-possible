@@ -1,0 +1,13 @@
+/**
+ * Navigation
+ **/
+
+.navbar-brand {}
+
+@media(max-width: $tiny-screen) {
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+}
