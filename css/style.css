@@ -9852,10 +9852,13 @@ em {
 footer {
   margin: 50px 0; }
   /* line 9, ../sass/modules/_footer.scss */
+  footer p {
+    text-align: center; }
+  /* line 13, ../sass/modules/_footer.scss */
   footer img.copyleft {
     height: 12px;
     width: auto; }
-  /* line 13, ../sass/modules/_footer.scss */
+  /* line 17, ../sass/modules/_footer.scss */
   footer a {
     color: #ccc; }
 
@@ -9923,10 +9926,7 @@ footer {
   #main-body article > img {
     float: none;
     max-width: 100%;
-    margin-bottom: 2em; }
-  /* line 105, ../sass/pages/_home.scss */
-  #main-body .fa-3x {
-    font-size: 1.75em; } }
+    margin-bottom: 2em; } }
 /* line 112, ../sass/pages/_home.scss */
 .featurette-divider {
   margin: 80px 0; }
