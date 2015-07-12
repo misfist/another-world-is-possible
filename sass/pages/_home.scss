@@ -17,6 +17,10 @@
 			font-size: 2.1rem;
 		}
 
+		ul {
+			margin-top: 2em;
+		}
+
 		li {
 			text-align: center;
 		}
@@ -61,6 +65,10 @@
 		article {
 			margin-top: 2em;
 			padding-top: 2em;
+			p,
+			li {
+				font-size: 1.8rem;
+			}
 		}
 	}
 
@@ -102,12 +110,17 @@
 			max-width: 100%;
 			margin-bottom: 2em;
 		}
-		.fa-3x {
-			//font-size: 1.75em;
+		ul {
+			clear: both;
 		}
+		.fa-3x {}
 	}
 
 }
+
+
+
+
 
 .featurette-divider {
     margin: 80px 0;
