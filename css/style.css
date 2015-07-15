@@ -9935,14 +9935,17 @@ footer {
     font-size: 2.5rem; }
   /* line 97, ../sass/pages/_home.scss */
   #main-body .fa-3x {
-    font-size: 1.75em; } }
+    font-size: 1.75em; }
+  /* line 100, ../sass/pages/_home.scss */
+  #main-body ul {
+    text-align: center; } }
 @media (max-width: 375px) {
-  /* line 108, ../sass/pages/_home.scss */
+  /* line 111, ../sass/pages/_home.scss */
   #main-body article > img {
     float: none;
     max-width: 100%;
     margin-bottom: 2em; }
-  /* line 113, ../sass/pages/_home.scss */
+  /* line 116, ../sass/pages/_home.scss */
   #main-body ul {
     clear: both; } }
 /**
