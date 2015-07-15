@@ -76,9 +76,9 @@
 				<p>You can regularly find me at <a href="http://thelearningcollective.nyc/" target="_blank">TLC</a>, at <a href="http://www.meetup.com/WomenWhoCodeNYC/" target="_blank">meet-ups</a>, <a href="http://nyccamp.org/" target="_blank">open source conferences</a> or online at any of the following:</p>
 
 				<ul class="list-inline">
-					<li class="col-lg-2"><a href="https://github.com/misfist" target="_blank"><i class="fa fa-github-square  fa-3x"></i></a></li>
-					<li class="col-lg-2"><a href="https://www.linkedin.com/in/patricialutz" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
-					<li class="col-lg-2"><a href="#" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></li>
+					<li class="col-lg-2"><a href="https://github.com/misfist" class="icon" target="_blank"><i class="fa fa-github-square  fa-3x"></i></a></li>
+					<li class="col-lg-2"><a href="https://www.linkedin.com/in/patricialutz" class="icon" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+					<li class="col-lg-2"><a href="mailto:peaATmisfistDOTcom" class="icon" id="email" onclick=""><i class="fa fa-envelope-o fa-3x"></i></a></li>
 				</ul>
 
 			</article>
@@ -94,6 +94,12 @@
 
 	    <!-- jQuery -->
 	    <script src="js/jquery.js"></script>
+
+	    <script type="text/javascript">
+	    	$( '#email' ).on( 'click', function( event ) {
+	    		$( this ).attr( 'href', $( this ).attr( 'href' ).replace( 'AT', '@' ).replace( 'DOT', '.' ) );
+	    	} );
+	    </script>
 
 	    <!-- Bootstrap Core JavaScript -->
 	    <script src="js/bootstrap.min.js"></script>
