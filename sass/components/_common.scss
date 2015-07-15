@@ -1,4 +1,14 @@
 a {
+	color: $primary;
+
+	&:hover,
+	&:focus {
+		color: $gray-medium;
+	}
+}
+
+
+a.icon {
 	color: $gray-medium;
 
 	&:hover,

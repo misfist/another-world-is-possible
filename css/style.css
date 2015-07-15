@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /**
  * Primary Styles
+ * Author: Patricia Lutz
  **/
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -9711,12 +9712,19 @@ body {
 
 /* line 1, ../sass/components/_common.scss */
 a {
-  color: #ccc; }
+  color: #e53623; }
   /* line 4, ../sass/components/_common.scss */
   a:hover, a:focus {
+    color: #ccc; }
+
+/* line 11, ../sass/components/_common.scss */
+a.icon {
+  color: #ccc; }
+  /* line 14, ../sass/components/_common.scss */
+  a.icon:hover, a.icon:focus {
     color: #e53623; }
 
-/* line 10, ../sass/components/_common.scss */
+/* line 20, ../sass/components/_common.scss */
 em {
   font-style: normal;
   color: #e53623;
