@@ -9895,57 +9895,58 @@ footer {
     margin-top: 2em; }
   /* line 24, ../sass/pages/_home.scss */
   #main-body article li {
-    text-align: center; }
-  /* line 28, ../sass/pages/_home.scss */
+    padding-right: 1em;
+    padding-left: 1em; }
+  /* line 29, ../sass/pages/_home.scss */
   #main-body article img {
     max-width: 50%; }
-/* line 36, ../sass/pages/_home.scss */
+/* line 37, ../sass/pages/_home.scss */
 #main-body article:nth-child(odd) img {
   float: right;
   margin-left: 2em; }
-/* line 45, ../sass/pages/_home.scss */
+/* line 46, ../sass/pages/_home.scss */
 #main-body article:nth-child(even) img {
   float: left;
   margin-right: 2em; }
 
 @media (max-width: 991px) {
-  /* line 55, ../sass/pages/_home.scss */
+  /* line 56, ../sass/pages/_home.scss */
   #main-body h2 {
     font-size: 3rem; } }
 @media (max-width: 768px) {
-  /* line 65, ../sass/pages/_home.scss */
+  /* line 66, ../sass/pages/_home.scss */
   #main-body article {
     margin-top: 2em;
     padding-top: 2em; }
-    /* line 68, ../sass/pages/_home.scss */
+    /* line 69, ../sass/pages/_home.scss */
     #main-body article p,
     #main-body article li {
       font-size: 1.8rem; } }
 @media (max-width: 668px) {
-  /* line 80, ../sass/pages/_home.scss */
+  /* line 81, ../sass/pages/_home.scss */
   #main-body .fa-3x {
     font-size: 2em; } }
 @media (max-width: 640px) {
-  /* line 90, ../sass/pages/_home.scss */
+  /* line 91, ../sass/pages/_home.scss */
   #main-body article {
     margin-top: 2em;
     padding-top: 2em; }
-  /* line 94, ../sass/pages/_home.scss */
+  /* line 95, ../sass/pages/_home.scss */
   #main-body h2 {
     font-size: 2.5rem; }
-  /* line 97, ../sass/pages/_home.scss */
+  /* line 98, ../sass/pages/_home.scss */
   #main-body .fa-3x {
     font-size: 1.75em; }
-  /* line 100, ../sass/pages/_home.scss */
+  /* line 101, ../sass/pages/_home.scss */
   #main-body ul {
     text-align: center; } }
 @media (max-width: 375px) {
-  /* line 111, ../sass/pages/_home.scss */
+  /* line 112, ../sass/pages/_home.scss */
   #main-body article > img {
     float: none;
     max-width: 100%;
     margin-bottom: 2em; }
-  /* line 116, ../sass/pages/_home.scss */
+  /* line 117, ../sass/pages/_home.scss */
   #main-body ul {
     clear: both; } }
 /**
