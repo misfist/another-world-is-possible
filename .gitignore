@@ -7,3 +7,4 @@
 *.gz
 .brackets.json
 .sass-cache/
+config.rb
